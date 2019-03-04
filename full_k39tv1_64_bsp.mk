@@ -34,6 +34,6 @@ KERNEL_DEFCONFIG ?= k39tv1_64_bsp_debug_defconfig
 else
 KERNEL_DEFCONFIG ?= k39tv1_64_bsp_defconfig
 endif
-PRELOADER_TARGET_PRODUCT ?= k39tv1_64_bsp
-LK_PROJECT ?= k39tv1_64_bsp
-TRUSTY_PROJECT ?= k39tv1_64_bsp
+#PRELOADER_TARGET_PRODUCT ?= k39tv1_64_bsp
+#LK_PROJECT ?= k39tv1_64_bsp
+#TRUSTY_PROJECT ?= k39tv1_64_bsp
