@@ -23,8 +23,8 @@ PRODUCT_LOCALES := en_US zh_CN zh_TW es_ES pt_BR ru_RU fr_FR de_DE tr_TR vi_VN m
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_MANUFACTURER := UMIDIGI
-PRODUCT_NAME := A3
-PRODUCT_DEVICE := A3
+PRODUCT_NAME := full_k39tv1_64_bsp
+PRODUCT_DEVICE := k39tv1_64_bsp
 PRODUCT_MODEL := A3
 PRODUCT_POLICY := android.policy_phone
 PRODUCT_BRAND := UMIDIGI

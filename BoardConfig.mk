@@ -22,4 +22,14 @@ else
 BOARD_KERNEL_CMDLINE = bootopt=64S3,32N2,64N2
 endif
 
+# Dexpreopt
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+    endif
+  endif
+endif
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
+
 -include device/mediatek/build/core/soong_config.mk
