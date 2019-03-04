@@ -32,4 +32,6 @@ ifeq ($(HOST_OS),linux)
 endif
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 
+PRODUCT_SHIPPING_API_LEVEL := 27
+
 -include device/mediatek/build/core/soong_config.mk
